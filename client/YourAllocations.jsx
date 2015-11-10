@@ -1,4 +1,4 @@
-const noOfPrefs = 3;
+const noOfPrefs = 4;
 
 YourAllocations = React.createClass({
 
