@@ -126,6 +126,7 @@ YourAllocations = React.createClass({
             { this.renderAllocationSelect('First', 0) }
             { this.renderAllocationSelect('Second', 1) }
             { this.renderAllocationSelect('Third', 2) }
+            { this.renderAllocationSelect('Fourth', 3) }
 
             <button 
               className="btn btn-success" 
