@@ -1,4 +1,4 @@
-const noOfPrefs = 4;
+const noOfPrefs = 3;
 
 ProjectAllocations = React.createClass({
 
