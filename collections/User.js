@@ -5,6 +5,10 @@ Schema.User = new SimpleSchema({
     type: String,
     optional: true
   },
+  joker: {
+    type: Boolean,
+    optional: true
+  },
   emails: {
     type: [Object],
     // this must be optional if you also use other login services like facebook,
