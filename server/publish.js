@@ -16,7 +16,8 @@ Meteor.publish('/Users/get', function () {
     {
       fields: {
         _id: 1,
-        username: 1
+        username: 1,
+        joker: 1
       }
     }
   );
