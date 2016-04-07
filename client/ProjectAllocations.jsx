@@ -34,11 +34,19 @@ ProjectAllocations = React.createClass({
       // change to user
       return this.findUser(allocation.userId);
     }).map((user) => {
-      return (
-        <li {user.joker ? 'style="font-weight: bold"' : ''}>
-          {this.getUserLabel(user)}
-        </li>
-      );
+      if (user.joker) {
+        return (
+          <li>
+            <b>{this.getUserLabel(user)}</b>
+          </li>
+        );
+      } else {
+        return (
+          <li>
+            {this.getUserLabel(user)}
+          </li>
+        );
+	  }
     });
   },
 
