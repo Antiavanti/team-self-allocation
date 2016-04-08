@@ -7,7 +7,7 @@ Schema.User = new SimpleSchema({
   },
   joker: {
     type: Boolean,
-    optional: true
+    defaultValue: false
   },
   emails: {
     type: [Object],
