@@ -58,10 +58,10 @@ ProjectAllocations = React.createClass({
   },
 
   renderProjectPreferences (project) {
-    var names = ['First', 'Second', 'Third', 'Fourth', 'Fifth'];
+    var names = ['First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth', 'Seventh', 'Eighth'];
     return _.range(noOfPrefs).map((index) => {
       return (
-        <div className="col-sm-4">
+        <div className="col-sm-3">
           <h5>{names[index]} Preference</h5>
           <ol>
             { this.renderProjectUsers(project, index) }
